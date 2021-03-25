@@ -70,7 +70,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=~/privatesource/vfb/zshrccustom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -85,12 +85,6 @@ source $ZSH/oh-my-zsh.sh
 
 ## set colors for LS_COLORS
 #eval `dircolors ~/.dircolors`
-export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
-zstyle ':completion:*' list-colors
-
-alias ll='ls -al'
-
-export DOCKER_HOST='tcp://0.0.0.0:2375'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
