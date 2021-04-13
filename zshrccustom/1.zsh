@@ -1,6 +1,8 @@
 #export DISPLAY=127.0.0.1:0.0
 #sudo /etc/init.d/dbus start &> /dev/null
 
+source /etc/profile.d/volvofinans-wsl.sh
+
 export NVM_DIR="$HOME/.nvm"
 alias loadnvm='[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"'
 
